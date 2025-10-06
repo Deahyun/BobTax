@@ -6,6 +6,47 @@ BobTax 프로젝트의 Git 커밋 이력을 관리하는 문서입니다.
 
 ## 2025-10-06
 
+### 6c9ea0a - docs: CLAUDE.md 업데이트 - Git 커밋 관리 정보 추가
+
+**Date:** 2025-10-06 15:32
+**Author:** Deahyun <tegaget@gmail.com>
+
+**변경 사항:**
+- Git 커밋 히스토리 관리 방식 추가
+- Docs/git_commit.md 파일 정보 추가
+- 완료된 작업 업데이트 (37개 → 39개 세부 메뉴)
+- 참고 링크에 git_commit.md, 메뉴구성.txt 추가
+
+**업데이트된 파일:**
+- `CLAUDE.md` - Git 커밋 관리 섹션 추가
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+---
+
+### e0b58dc - docs: Git 커밋 히스토리 관리 문서 추가
+
+**Date:** 2025-10-06 15:29
+**Author:** Deahyun <tegaget@gmail.com>
+
+**변경 사항:**
+- Docs/git_commit.md 파일 생성
+- 전체 커밋 이력 정리 (3개 커밋)
+- 커밋 메시지 작성 규칙 추가
+- 향후 커밋 정보는 이 파일에 계속 추가 예정
+
+**신규 파일:**
+- `Docs/git_commit.md` - Git 커밋 히스토리 관리 문서
+
+**커밋 작성 규칙:**
+- Type: feat, fix, docs, style, refactor, test, chore
+- Subject: 간결한 제목 (50자 이내)
+- Body: 상세 설명 (변경 사항, 이유 등)
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+---
+
 ### 82b2a46 - feat: 기본 환경설정 메뉴에 법인 기본정보, 주식 및 지분 정보 추가
 
 **Date:** 2025-10-06 15:25
