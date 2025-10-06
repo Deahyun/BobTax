@@ -6,6 +6,23 @@ BobTax 프로젝트의 Git 커밋 이력을 관리하는 문서입니다.
 
 ## 2025-10-06
 
+### 2d15f68 - docs: git_commit.md 자기 참조 커밋 추가
+
+**Date:** 2025-10-06 15:37
+**Author:** Deahyun <tegaget@gmail.com>
+
+**변경 사항:**
+- a8185f2 커밋 정보 추가
+- Git 커밋 관리 시스템 완성
+
+**완료:**
+- Git 커밋 히스토리 자동 관리 시스템 구축 완료
+- 향후 모든 커밋은 이 파일에 수동으로 추가 예정
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+---
+
 ### a8185f2 - docs: git_commit.md에 최신 커밋 정보 추가
 
 **Date:** 2025-10-06 15:35
