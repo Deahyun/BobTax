@@ -5,6 +5,8 @@ export const menuData = [
     title: '기본 환경설정',
     subMenus: [
       { id: 'basic-assets', title: '기초자산', path: '/basic-settings/assets' },
+      { id: 'corp-info', title: '법인 기본정보', path: '/basic-settings/corp-info' },
+      { id: 'stock-info', title: '주식 및 지분 정보', path: '/basic-settings/stock-info' },
       { id: 'account-info', title: '계좌정보', path: '/basic-settings/account' },
       { id: 'credit-card', title: '신용카드정보', path: '/basic-settings/credit-card' },
       { id: 'cash-card', title: '현금카드정보', path: '/basic-settings/cash-card' }

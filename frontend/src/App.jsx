@@ -14,6 +14,8 @@ function App() {
 
           {/* 기본 환경설정 */}
           <Route path="/basic-settings/assets" element={<GenericPage title="기초자산" />} />
+          <Route path="/basic-settings/corp-info" element={<GenericPage title="법인 기본정보" />} />
+          <Route path="/basic-settings/stock-info" element={<GenericPage title="주식 및 지분 정보" />} />
           <Route path="/basic-settings/account" element={<GenericPage title="계좌정보" />} />
           <Route path="/basic-settings/credit-card" element={<GenericPage title="신용카드정보" />} />
           <Route path="/basic-settings/cash-card" element={<GenericPage title="현금카드정보" />} />
