@@ -286,20 +286,30 @@ git branch -a
 
 ```
 TaxService/Docs/
-├── ref.txt                              # 메뉴 구조 참고
+├── 메뉴구성.txt                         # 메뉴 구조 참고 (이전: ref.txt)
+├── git_commit.md                        # Git 커밋 히스토리 관리
 ├── 법인세_신고_프로그램_UI_및_권한_설계서.docx
 └── [추가 문서].md                       # 필요시 추가
 ```
+
+### Git 커밋 관리
+
+모든 커밋 정보는 `TaxService/Docs/git_commit.md`에 자동으로 기록됩니다.
+- 커밋 날짜, 작성자, 변경 사항 상세 내역
+- 커밋 메시지 작성 규칙
+- Type: feat, fix, docs, style, refactor, test, chore
 
 ## 현재 개발 상태 (2025-10-06)
 
 ### 완료된 작업
 - [x] FastAPI + React + Vite 기본 개발 환경 구축
-- [x] 전체 메뉴 구조 설계 및 구현 (9개 대분류, 37개 세부 메뉴)
+- [x] 전체 메뉴 구조 설계 및 구현 (9개 대분류, 39개 세부 메뉴)
 - [x] Header, Sidebar, Footer 레이아웃 완성
 - [x] React Router 기반 라우팅 설정
 - [x] Backend API 기본 구조 (Excel 업로드, 계정과목 조회)
 - [x] Git 저장소 초기화 및 GitHub 연동
+- [x] 기본 환경설정에 법인 기본정보, 주식 및 지분 정보 메뉴 추가
+- [x] Git 커밋 히스토리 관리 문서 (git_commit.md) 생성
 
 ### 다음 작업 예정
 - [ ] 각 메뉴별 페이지 상세 구현
@@ -315,4 +325,6 @@ TaxService/Docs/
 - [Backend README](./TaxService/backend/README.md)
 - [Frontend README](./TaxService/frontend/README.md)
 - [TaxService README](./TaxService/README.md)
+- [Git Commit History](./TaxService/Docs/git_commit.md)
+- [메뉴 구성](./TaxService/Docs/메뉴구성.txt)
 - [GitHub Repository](https://github.com/Deahyun/BobTax)
